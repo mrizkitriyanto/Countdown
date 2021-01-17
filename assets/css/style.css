@@ -103,11 +103,11 @@ h2 {
 .countdown__timer-time::before{
     content: '';
     position: absolute;
-    bottom: -2rem;
+    bottom: -1.5rem;
     left: 0;
     width: 100%;
     height: var(--mb-2);
-    background:var(--white-color);
+    background:var(--third-color);
     color: var(--second-color);
     font-size: 0.8rem;
     line-height: var(--mb-2);
