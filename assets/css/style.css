@@ -45,7 +45,7 @@ body {
     font-size: var(--h2-font-size);
     color: var(--second-color);
     /* background-color: var(--first-color); */
-    background: url("/Countdown/assets/img/ojan.png");
+    background: url("/Countdown/assets/img/Ojan.jpg");
     background-size: 100%;
 }
 
@@ -58,7 +58,7 @@ h2 {
     bottom:var(--mb-4);
     right:var(--mb-1);
     left:var(--mb-1);
-    background: url("/Countdown/assets/img/ojan.png");
+    background: url("/Countdown/assets/img/Ojan.jpg");
     background-size: 100%;
     background-attachment: fixed;
     border-radius: 3%;
