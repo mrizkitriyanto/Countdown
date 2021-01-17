@@ -82,6 +82,22 @@ h2 {
     font-size: var(--big-font-size);
 
 }
+.countdown__container-link{
+    color: #FBBC04;
+    font-size: 2.5rem;
+}
+.countdown__container-link span{
+    color: #FBBC04;
+    font-size: 1rem;
+}
+.countdown__container-link span:hover{
+    color: #4285F4;
+    font-size: 1rem;
+}
+.countdown__container-link:hover{
+    color:  #34A853;
+    font-size: var(--mb-3);
+}
 .countdown__timer{
     display: flex;
     margin-top: var(--mb-3);
