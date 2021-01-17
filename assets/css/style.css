@@ -133,6 +133,7 @@ h2 {
         color: var(--second-color);
         background: url("/Countdown/assets/img/Litbang.png");
         background-blend-mode: hard-light;
+        background-size: 100%;
     }
     h2{
         margin-top: var(--mb-2)
