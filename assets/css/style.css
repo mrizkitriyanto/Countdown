@@ -1,0 +1,136 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap" );
+
+/* Warna */
+:root{
+    --first-color : #000000;
+    --second-color: #FC3E2D;
+    --white-color: #ffffff;
+    --dark-color: #2A3B47;
+}
+
+/* Margin */
+:root{
+    --mb-0: 0.5rem;
+    --mb-1 : 1rem;
+    --mb-2 : 2rem;
+    --mb-3 : 3rem;
+    --mb-4 : 4rem;
+    --mb-5 : 5rem;
+    --mb-6 : 6rem;
+    --mb-7 : 7rem;
+    --mb-8 : 8rem;
+    --mb-9 : 9rem;
+    --mb-10 : 10rem;
+
+}
+
+/* Body */
+:root{
+    --font-style: 'Lato', sans-serif;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+    --big-font-size: 4rem;
+}
+
+
+/* BASE */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: var(--font-style);
+    font-size: var(--h2-font-size);
+    color: var(--second-color);
+    /* background-color: var(--first-color); */
+    background-image: url(../img/ojan.JPG);
+}
+
+h2 {
+    margin: 0;
+}
+.countdown__container{
+    position: absolute;
+    top: var(--mb-4);
+    bottom:var(--mb-4);
+    right:var(--mb-5);
+    left:var(--mb-5);
+    background: url(../img/ojan.JPG);
+    background-attachment: fixed;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countdown__container h2{
+    text-align: center;
+    font-size: var(--h2-font-size);
+    line-height: var(--mb-4);
+
+}
+.countdown__container h2 span{
+    display: block;
+    font-weight: bold;
+    letter-spacing: var(--mb-0);
+    font-size: var(--big-font-size);
+}
+.countdown__timer{
+    display: flex;
+    margin-top: var(--mb-3);
+}
+
+.countdown__timer-time{
+    position: relative;
+    width: var(--mb-4);
+    height: var(--mb-4);
+    line-height: var(--mb-4);
+    text-align: center;
+    background: var(--first-color);
+    color: var(--second-color);
+    margin: 0 var(--mb-0);
+    font-size: var(--mb-2);
+}
+
+.countdown__timer-time::before{
+    content: '';
+    position: absolute;
+    bottom: -2rem;
+    left: 0;
+    width: 100%;
+    height: var(--mb-2);
+    background:var(--white-color);
+    color: var(--second-color);
+    font-size: var(--mb-1);
+    line-height: var(--mb-2);
+}
+
+.countdown__timer #day:before{
+    content: 'Days';
+}
+.countdown__timer #hour:before{
+    content: 'Hours';
+}
+.countdown__timer #minute:before{
+    content: 'Minutes';
+}
+.countdown__timer #second:before{
+    content: 'Seconds';
+}
+
+@media screen and (min-width 768px){
+
+}
+
+/* .countdown__timer-time{
+    position: relative;
+    width: var(--mb-6);
+    height: var(--mb-6);
+    line-height: var(--mb-6);
+    text-align: center;
+    background: var(--first-color);
+    color: var(--second-color);
+    margin: 0 var(--mb-1);
+    font-size: var(--mb-3);
+} */
