@@ -27,3 +27,16 @@ function deadline(){
 setInterval(function() {
     deadline();
 }, 1000);
+
+
+/* SCROLL REVEAL ANIMATION */
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+})
+
+sr.reveal('.countdown__container', {origin:'right', delay: 400});
+sr.reveal('.countdown__container-subtitle', {origin:'left', delay: 500});
+sr.reveal('.countdown__timer-time', {delay: 800});
