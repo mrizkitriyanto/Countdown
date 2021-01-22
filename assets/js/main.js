@@ -1,6 +1,6 @@
 
 // Waktu yang di tuju
-var countDate = new Date('Jan 22, 2021 00:00:00').getTime();
+var countDate = new Date('Jan 24, 2021 00:00:00').getTime();
 
 // Fungsi countdown
 function deadline(){
